@@ -1,11 +1,16 @@
+//components
+import Logo from "";
+
+import Hero from "./components/Hero"
+
 
 function App() {
   return (
 
     <div className="min-h-screen bg-white text-gray-900">
-      <h1 className="text-3xl font-bold text-center mt-10">
-        Welcome to the Blog Landing Page
-      </h1>
+      <Hero />
+      <h1>test</h1>
+      <Logo />
     </div>
 
 
